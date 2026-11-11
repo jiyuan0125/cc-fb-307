@@ -1,0 +1,306 @@
+[
+ {
+  "updated_at": "2026-10-03 06:20:00",
+  "name": "杨帆4",
+  "level": "金卡",
+  "credit_limit": 128156.58,
+  "phone": "13979138622",
+  "cust_no": "C000292"
+ },
+ {
+  "updated_at": "2026-10-03 06:44:00",
+  "name": "王芳7",
+  "level": "白金",
+  "credit_limit": 88121.32,
+  "phone": "13947839885",
+  "cust_no": "C000259"
+ },
+ {
+  "updated_at": "2026-10-03 06:57:00",
+  "name": "刘洋8",
+  "level": "银卡",
+  "credit_limit": 63611.2,
+  "phone": "13929118914",
+  "cust_no": "C000233"
+ },
+ {
+  "updated_at": "2026-10-03 06:47:00",
+  "name": "何平7",
+  "level": "银卡",
+  "credit_limit": 15245.62,
+  "phone": "13978243012",
+  "cust_no": "C000133"
+ },
+ {
+  "updated_at": "2026-10-03 06:40:00",
+  "name": "罗云7",
+  "level": "白金",
+  "credit_limit": 152544.37,
+  "phone": "13927215153",
+  "cust_no": "C000187"
+ },
+ {
+  "updated_at": "2026-10-03 06:16:00",
+  "name": "杨帆8",
+  "level": "银卡",
+  "credit_limit": 109763.64,
+  "phone": "13938371881",
+  "cust_no": "C000296"
+ },
+ {
+  "updated_at": "2026-10-03 06:48:00",
+  "name": "郭燕0",
+  "level": "普通",
+  "credit_limit": 159351.27,
+  "phone": "13947337530",
+  "cust_no": "C000018"
+ },
+ {
+  "updated_at": "2026-10-03 06:14:00",
+  "name": "张伟5",
+  "level": "金卡",
+  "credit_limit": 192917.94,
+  "phone": "13932735448",
+  "cust_no": "C000239"
+ },
+ {
+  "updated_at": "2026-10-03 06:20:00",
+  "name": "杨帆6",
+  "level": "普通",
+  "credit_limit": 94689.82,
+  "phone": "13984471758",
+  "cust_no": "C000132"
+ },
+ {
+  "updated_at": "2026-10-03 06:43:00",
+  "name": "吴娜3",
+  "level": "白金",
+  "credit_limit": 16343.39,
+  "phone": "13950074545",
+  "cust_no": "C000264"
+ },
+ {
+  "updated_at": "2026-10-03 06:49:00",
+  "name": "马超4",
+  "level": "金卡",
+  "credit_limit": 29361.08,
+  "phone": null,
+  "cust_no": "C000112"
+ },
+ {
+  "updated_at": "2026-10-03 06:40:00",
+  "name": "周杰4",
+  "level": "普通",
+  "credit_limit": 146346.12,
+  "phone": "13928275256",
+  "cust_no": "C000076"
+ },
+ {
+  "updated_at": "2026-10-03 06:37:00",
+  "name": "周杰6",
+  "level": "金卡",
+  "credit_limit": 183847.13,
+  "phone": "13962462918",
+  "cust_no": "C000006"
+ },
+ {
+  "updated_at": "2026-10-03 06:45:00",
+  "name": "刘洋6",
+  "level": "银卡",
+  "credit_limit": 194978.06,
+  "phone": null,
+  "cust_no": "C000051"
+ },
+ {
+  "updated_at": "2026-10-03 06:36:00",
+  "name": "杨帆8",
+  "level": "普通",
+  "credit_limit": 133298.62,
+  "phone": "13949627128",
+  "cust_no": "C000206"
+ },
+ {
+  "updated_at": "2026-10-03 06:48:00",
+  "name": "李强7",
+  "level": "普通",
+  "credit_limit": 103011.84,
+  "phone": "13975193319",
+  "cust_no": "C000250"
+ },
+ {
+  "updated_at": "2026-10-03 06:34:00",
+  "name": "何平0",
+  "level": "白金",
+  "credit_limit": 79912.66,
+  "phone": null,
+  "cust_no": "C000126"
+ },
+ {
+  "updated_at": "2026-10-03 06:39:00",
+  "name": "何平1",
+  "level": "白金",
+  "credit_limit": 12354.3,
+  "phone": "13954077342",
+  "cust_no": "C000145"
+ },
+ {
+  "updated_at": "2026-10-03 06:15:00",
+  "name": "孙丽2",
+  "level": "白金",
+  "credit_limit": 138842.85,
+  "phone": "13942665758",
+  "cust_no": "C000101"
+ },
+ {
+  "updated_at": "2026-10-03 06:53:00",
+  "name": "黄敏5",
+  "level": "白金",
+  "credit_limit": 56129.73,
+  "phone": "13929678182",
+  "cust_no": "C000212"
+ },
+ {
+  "updated_at": "2026-10-03 06:21:00",
+  "name": "罗云6",
+  "level": "金卡",
+  "credit_limit": 121417.93,
+  "phone": "13992732227",
+  "cust_no": "C000141"
+ },
+ {
+  "updated_at": "2026-10-03 06:47:00",
+  "name": "周杰6",
+  "level": "普通",
+  "credit_limit": 148574.58,
+  "phone": "13954043705",
+  "cust_no": "C000258"
+ },
+ {
+  "updated_at": "2026-10-03 06:25:00",
+  "name": "王芳5",
+  "level": "银卡",
+  "credit_limit": 57258.03,
+  "phone": "13935695353",
+  "cust_no": "C000167"
+ },
+ {
+  "updated_at": "2026-10-03 06:28:00",
+  "name": "周杰1",
+  "level": "普通",
+  "credit_limit": 197106.51,
+  "phone": "13916694653",
+  "cust_no": "C000298"
+ },
+ {
+  "updated_at": "2026-10-03 06:36:00",
+  "name": "高翔3",
+  "level": "普通",
+  "credit_limit": 22401.15,
+  "phone": "13921913908",
+  "cust_no": "C000030"
+ },
+ {
+  "updated_at": "2026-10-03 06:24:00",
+  "name": "刘洋1",
+  "level": "白金",
+  "credit_limit": 853.89,
+  "phone": null,
+  "cust_no": "C000280"
+ },
+ {
+  "updated_at": "2026-10-03 06:56:00",
+  "name": "吴娜2",
+  "level": "普通",
+  "credit_limit": 76324.48,
+  "phone": "13990181982",
+  "cust_no": "C000245"
+ },
+ {
+  "updated_at": "2026-10-03 06:26:00",
+  "name": "黄敏2",
+  "level": "白金",
+  "credit_limit": 143363.08,
+  "phone": "13940521618",
+  "cust_no": "C000236"
+ },
+ {
+  "updated_at": "2026-10-03 06:30:00",
+  "name": "王芳1",
+  "level": "银卡",
+  "credit_limit": 128553.49,
+  "phone": "13919541354",
+  "cust_no": "C000046"
+ },
+ {
+  "updated_at": "2026-10-03 06:34:00",
+  "name": "李强3",
+  "level": "银卡",
+  "credit_limit": 161642.74,
+  "phone": "13984857265",
+  "cust_no": "C000075"
+ },
+ {
+  "updated_at": "2026-10-03 06:40:00",
+  "name": "胡军1",
+  "level": "白金",
+  "credit_limit": 188518.38,
+  "phone": "13967203038",
+  "cust_no": "C000271"
+ },
+ {
+  "updated_at": "2026-10-03 06:32:00",
+  "name": "王芳0",
+  "level": "白金",
+  "credit_limit": 188391.69,
+  "phone": null,
+  "cust_no": "C000243"
+ },
+ {
+  "updated_at": "2026-10-03 06:55:00",
+  "name": "高翔2",
+  "level": "普通",
+  "credit_limit": 169536.91,
+  "phone": "13975774302",
+  "cust_no": "C000200"
+ },
+ {
+  "updated_at": "2026-10-03 06:24:00",
+  "name": "赵磊3",
+  "level": "普通",
+  "credit_limit": 82605.91,
+  "phone": "13936883348",
+  "cust_no": "C000219"
+ },
+ {
+  "updated_at": "2026-10-03 06:16:00",
+  "name": "杨帆7",
+  "level": "银卡",
+  "credit_limit": 25439.93,
+  "phone": "13928351557",
+  "cust_no": "C000070"
+ },
+ {
+  "updated_at": "2026-10-03 06:26:00",
+  "name": "高翔5",
+  "level": "金卡",
+  "credit_limit": 167681.06,
+  "phone": "13932452174",
+  "cust_no": "C000158"
+ },
+ {
+  "updated_at": "2026-10-03 06:32:00",
+  "name": "陈静6",
+  "level": "银卡",
+  "credit_limit": 161867.35,
+  "phone": "13911565394",
+  "cust_no": "C000042"
+ },
+ {
+  "updated_at": "2026-10-03 06:19:00",
+  "name": "黄敏6",
+  "level": "银卡",
+  "credit_limit": 87944.12,
+  "phone": "13911267346",
+  "cust_no": "C000096"
+ }
+]

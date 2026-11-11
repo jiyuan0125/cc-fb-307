@@ -1,0 +1,482 @@
+[
+ {
+  "updated_at": "2026-10-12 06:22:00",
+  "name": "刘洋5",
+  "level": "普通",
+  "credit_limit": 169782.81,
+  "phone": "13994069332",
+  "customer_code": "C000050"
+ },
+ {
+  "updated_at": "2026-10-12 06:31:00",
+  "name": "黄敏1",
+  "level": "金卡",
+  "credit_limit": 146424.05,
+  "phone": "13942550007",
+  "customer_code": "C000262"
+ },
+ {
+  "updated_at": "2026-10-12 06:38:00",
+  "name": "郭燕4",
+  "level": "白金",
+  "credit_limit": 116383.51,
+  "phone": "13971495612",
+  "customer_code": "C000004"
+ },
+ {
+  "updated_at": "2026-10-12 06:45:00",
+  "name": "郭燕7",
+  "level": "金卡",
+  "credit_limit": 144992.21,
+  "phone": "13966581380",
+  "customer_code": "C000079"
+ },
+ {
+  "updated_at": "2026-10-12 06:19:00",
+  "name": "杨帆6",
+  "level": "普通",
+  "credit_limit": 94689.82,
+  "phone": "13928505934",
+  "customer_code": "C000132"
+ },
+ {
+  "updated_at": "2026-10-12 06:51:00",
+  "name": "吴娜2",
+  "level": "普通",
+  "credit_limit": 76324.48,
+  "phone": null,
+  "customer_code": "C000245"
+ },
+ {
+  "updated_at": "2026-10-12 06:47:00",
+  "name": "林峰2",
+  "level": "银卡",
+  "credit_limit": 75580.74,
+  "phone": null,
+  "customer_code": "C000002"
+ },
+ {
+  "updated_at": "2026-10-12 06:48:00",
+  "name": "马超1",
+  "level": "普通",
+  "credit_limit": 131935.05,
+  "phone": "13912337170",
+  "customer_code": "C000172"
+ },
+ {
+  "updated_at": "2026-10-12 06:54:00",
+  "name": "周杰0",
+  "level": "普通",
+  "credit_limit": 104408.2,
+  "phone": "13927504860",
+  "customer_code": "C000090"
+ },
+ {
+  "updated_at": "2026-10-12 06:54:00",
+  "name": "杨帆0",
+  "level": "银卡",
+  "credit_limit": 84801.3,
+  "phone": "13943632274",
+  "customer_code": "C000261"
+ },
+ {
+  "updated_at": "2026-10-12 06:33:00",
+  "name": "黄敏3",
+  "level": "白金",
+  "credit_limit": 111597.33,
+  "phone": "13926703558",
+  "customer_code": "C000201"
+ },
+ {
+  "updated_at": "2026-10-12 06:29:00",
+  "name": "何平5",
+  "level": "白金",
+  "credit_limit": 158489.19,
+  "phone": "13931993088",
+  "customer_code": "C000221"
+ },
+ {
+  "updated_at": "2026-10-12 06:27:00",
+  "name": "周杰6",
+  "level": "普通",
+  "credit_limit": 71182.19,
+  "phone": "13910185111",
+  "customer_code": "C000069"
+ },
+ {
+  "updated_at": "2026-10-12 06:31:00",
+  "name": "刘洋7",
+  "level": "银卡",
+  "credit_limit": 50948.33,
+  "phone": null,
+  "customer_code": "C000142"
+ },
+ {
+  "updated_at": "2026-10-12 06:10:00",
+  "name": "陈静8",
+  "level": "金卡",
+  "credit_limit": 25350.95,
+  "phone": "13968935721",
+  "customer_code": "C000242"
+ },
+ {
+  "updated_at": "2026-10-12 06:22:00",
+  "name": "张伟2",
+  "level": "银卡",
+  "credit_limit": 177818.89,
+  "phone": "13974558225",
+  "customer_code": "C000065"
+ },
+ {
+  "updated_at": "2026-10-12 06:38:00",
+  "name": "林峰8",
+  "level": "普通",
+  "credit_limit": 61119.26,
+  "phone": "13919325012",
+  "customer_code": "C000215"
+ },
+ {
+  "updated_at": "2026-10-12 06:28:00",
+  "name": "胡军7",
+  "level": "金卡",
+  "credit_limit": 76228.76,
+  "phone": "13971721329",
+  "customer_code": "C000151"
+ },
+ {
+  "updated_at": "2026-10-12 06:14:00",
+  "name": "李强1",
+  "level": "白金",
+  "credit_limit": 172446.25,
+  "phone": "13959086490",
+  "customer_code": "C000037"
+ },
+ {
+  "updated_at": "2026-10-12 06:56:00",
+  "name": "王芳0",
+  "level": "普通",
+  "credit_limit": 66197.06,
+  "phone": "13928548810",
+  "customer_code": "C000144"
+ },
+ {
+  "updated_at": "2026-10-12 06:39:00",
+  "name": "何平7",
+  "level": "银卡",
+  "credit_limit": 15245.62,
+  "phone": "13999365596",
+  "customer_code": "C000133"
+ },
+ {
+  "updated_at": "2026-10-12 06:22:00",
+  "name": "张伟3",
+  "level": "金卡",
+  "credit_limit": 53677.98,
+  "phone": "13990606916",
+  "customer_code": "C000156"
+ },
+ {
+  "updated_at": "2026-10-12 06:15:00",
+  "name": "徐勇8",
+  "level": "金卡",
+  "credit_limit": 65793.02,
+  "phone": "13934424624",
+  "customer_code": "C000287"
+ },
+ {
+  "updated_at": "2026-10-12 06:18:00",
+  "name": "罗云6",
+  "level": "普通",
+  "credit_limit": 33015.23,
+  "phone": "13926669588",
+  "customer_code": "C000186"
+ },
+ {
+  "updated_at": "2026-10-12 06:37:00",
+  "name": "罗云1",
+  "level": "银卡",
+  "credit_limit": 75629.39,
+  "phone": "13965083922",
+  "customer_code": "C000091"
+ },
+ {
+  "updated_at": "2026-10-12 06:53:00",
+  "name": "马超5",
+  "level": "银卡",
+  "credit_limit": 121113.46,
+  "phone": "13983013309",
+  "customer_code": "C000230"
+ },
+ {
+  "updated_at": "2026-10-12 06:10:00",
+  "name": "徐勇4",
+  "level": "金卡",
+  "credit_limit": 105114.96,
+  "phone": "13974460200",
+  "customer_code": "C000256"
+ },
+ {
+  "updated_at": "2026-10-12 06:43:00",
+  "name": "李强4",
+  "level": "普通",
+  "credit_limit": 35041.64,
+  "phone": "13965093506",
+  "customer_code": "C000067"
+ },
+ {
+  "updated_at": "2026-10-12 06:46:00",
+  "name": "王芳3",
+  "level": "白金",
+  "credit_limit": 60623.68,
+  "phone": "13919036107",
+  "customer_code": "C000120"
+ },
+ {
+  "updated_at": "2026-10-12 06:43:00",
+  "name": "朱婷6",
+  "level": "银卡",
+  "credit_limit": 1884.86,
+  "phone": "13944480237",
+  "customer_code": "C000078"
+ },
+ {
+  "updated_at": "2026-10-12 06:56:00",
+  "name": "孙丽2",
+  "level": "白金",
+  "credit_limit": 138842.85,
+  "phone": null,
+  "customer_code": "C000101"
+ },
+ {
+  "updated_at": "2026-10-12 06:15:00",
+  "name": "何平1",
+  "level": "金卡",
+  "credit_limit": 134819.03,
+  "phone": "13950380807",
+  "customer_code": "C000019"
+ },
+ {
+  "updated_at": "2026-10-12 06:23:00",
+  "name": "黄敏1",
+  "level": "金卡",
+  "credit_limit": 94249.4,
+  "phone": "13988623433",
+  "customer_code": "C000109"
+ },
+ {
+  "updated_at": "2026-10-12 06:15:00",
+  "name": "林峰3",
+  "level": "金卡",
+  "credit_limit": 141511.84,
+  "phone": null,
+  "customer_code": "C000165"
+ },
+ {
+  "updated_at": "2026-10-12 06:49:00",
+  "name": "孙丽4",
+  "level": "金卡",
+  "credit_limit": 96656.52,
+  "phone": "13926719263",
+  "customer_code": "C000121"
+ },
+ {
+  "updated_at": "2026-10-12 06:30:00",
+  "name": "郭燕3",
+  "level": "普通",
+  "credit_limit": 194464.66,
+  "phone": "13934754700",
+  "customer_code": "C000129"
+ },
+ {
+  "updated_at": "2026-10-12 06:21:00",
+  "name": "胡军5",
+  "level": "白金",
+  "credit_limit": 145095.56,
+  "phone": "13911215635",
+  "customer_code": "C000104"
+ },
+ {
+  "updated_at": "2026-10-12 06:42:00",
+  "name": "郭燕1",
+  "level": "白金",
+  "credit_limit": 34468.79,
+  "phone": "13975442050",
+  "customer_code": "C000253"
+ },
+ {
+  "updated_at": "2026-10-12 06:30:00",
+  "name": "高翔1",
+  "level": "金卡",
+  "credit_limit": 153432.94,
+  "phone": "13987638278",
+  "customer_code": "C000181"
+ },
+ {
+  "updated_at": "2026-10-12 06:38:00",
+  "name": "朱婷8",
+  "level": "金卡",
+  "credit_limit": 93860.83,
+  "phone": "13958562419",
+  "customer_code": "C000161"
+ },
+ {
+  "updated_at": "2026-10-12 06:26:00",
+  "name": "郭燕2",
+  "level": "金卡",
+  "credit_limit": 177461.15,
+  "phone": "13983654474",
+  "customer_code": "C000029"
+ },
+ {
+  "updated_at": "2026-10-12 06:13:00",
+  "name": "杨帆1",
+  "level": "普通",
+  "credit_limit": 104379.92,
+  "phone": null,
+  "customer_code": "C000226"
+ },
+ {
+  "updated_at": "2026-10-12 06:54:00",
+  "name": "李强8",
+  "level": "普通",
+  "credit_limit": 72740.12,
+  "phone": "13919931725",
+  "customer_code": "C000053"
+ },
+ {
+  "updated_at": "2026-10-12 06:39:00",
+  "name": "王芳2",
+  "level": "银卡",
+  "credit_limit": 158419.86,
+  "phone": null,
+  "customer_code": "C000299"
+ },
+ {
+  "updated_at": "2026-10-12 06:11:00",
+  "name": "罗云4",
+  "level": "金卡",
+  "credit_limit": 122325.71,
+  "phone": "13918984308",
+  "customer_code": "C000202"
+ },
+ {
+  "updated_at": "2026-10-12 06:55:00",
+  "name": "何平1",
+  "level": "白金",
+  "credit_limit": 21978.27,
+  "phone": "13946349618",
+  "customer_code": "C000136"
+ },
+ {
+  "updated_at": "2026-10-12 06:45:00",
+  "name": "罗云5",
+  "level": "银卡",
+  "credit_limit": 190860.81,
+  "phone": null,
+  "customer_code": "C000284"
+ },
+ {
+  "updated_at": "2026-10-12 06:20:00",
+  "name": "张伟5",
+  "level": "金卡",
+  "credit_limit": 192917.94,
+  "phone": "13962764034",
+  "customer_code": "C000239"
+ },
+ {
+  "updated_at": "2026-10-12 06:37:00",
+  "name": "朱婷2",
+  "level": "金卡",
+  "credit_limit": 107592.31,
+  "phone": null,
+  "customer_code": "C000281"
+ },
+ {
+  "updated_at": "2026-10-12 06:11:00",
+  "name": "孙丽2",
+  "level": "普通",
+  "credit_limit": 111159.11,
+  "phone": "13996154780",
+  "customer_code": "C000092"
+ },
+ {
+  "updated_at": "2026-10-12 06:19:00",
+  "name": "孙丽6",
+  "level": "普通",
+  "credit_limit": 158664.27,
+  "phone": "13964737460",
+  "customer_code": "C000033"
+ },
+ {
+  "updated_at": "2026-10-12 06:30:00",
+  "name": "徐勇0",
+  "level": "银卡",
+  "credit_limit": 77758.38,
+  "phone": "13920745753",
+  "customer_code": "C000099"
+ },
+ {
+  "updated_at": "2026-10-12 06:32:00",
+  "name": "徐勇1",
+  "level": "金卡",
+  "credit_limit": 153816.34,
+  "phone": "13916244531",
+  "customer_code": "C000217"
+ },
+ {
+  "updated_at": "2026-10-12 06:51:00",
+  "name": "罗云3",
+  "level": "银卡",
+  "credit_limit": 21328.63,
+  "phone": "13922557465",
+  "customer_code": "C000255"
+ },
+ {
+  "updated_at": "2026-10-12 06:53:00",
+  "name": "高翔8",
+  "level": "白金",
+  "credit_limit": 19965.15,
+  "phone": null,
+  "customer_code": "C000143"
+ },
+ {
+  "updated_at": "2026-10-12 06:25:00",
+  "name": "何平1",
+  "level": "银卡",
+  "credit_limit": 961.12,
+  "phone": "13951236409",
+  "customer_code": "C000100"
+ },
+ {
+  "updated_at": "2026-10-12 06:44:00",
+  "name": "郭燕7",
+  "level": "白金",
+  "credit_limit": 183343.52,
+  "phone": null,
+  "customer_code": "C000232"
+ },
+ {
+  "updated_at": "2026-10-12 06:29:00",
+  "name": "罗云3",
+  "level": "银卡",
+  "credit_limit": 198545.68,
+  "phone": "13929966099",
+  "customer_code": "C000237"
+ },
+ {
+  "updated_at": "2026-10-12 06:17:00",
+  "name": "郭燕5",
+  "level": "金卡",
+  "credit_limit": 111373.71,
+  "phone": "13993997513",
+  "customer_code": "C000122"
+ },
+ {
+  "updated_at": "2026-10-12 06:24:00",
+  "name": "赵磊0",
+  "level": "普通",
+  "credit_limit": 34492.76,
+  "phone": "13915874462",
+  "customer_code": "C000198"
+ }
+]
