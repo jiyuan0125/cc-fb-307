@@ -1,0 +1,105 @@
+{
+  "version": 1,
+  "description": "客户主数据三源合并映射：业务接口 JSON / 导出 CSV / 手工 Excel",
+  "target_fields": ["customer_id", "name", "level", "credit_limit", "phone", "updated_at"],
+  "key_field": "customer_id",
+  "required_fields": ["customer_id", "name", "level"],
+  "contact_fields": ["phone"],
+  "conflict_fields": ["name", "level", "credit_limit", "phone"],
+  "date_field": "updated_at",
+  "field_labels": {
+    "customer_id": "客户号",
+    "name": "姓名",
+    "level": "等级",
+    "credit_limit": "信用额度",
+    "phone": "联系方式",
+    "updated_at": "更新日期"
+  },
+  "field_rules": {
+    "customer_id": {
+      "kind": "identifier",
+      "prefixes": ["C"],
+      "digits_only": true,
+      "strip_leading_zeros": true
+    },
+    "name": {
+      "kind": "text"
+    },
+    "level": {
+      "kind": "text"
+    },
+    "credit_limit": {
+      "kind": "decimal",
+      "strip_chars": [",", " "],
+      "decimal_places": 2
+    },
+    "phone": {
+      "kind": "identifier",
+      "strip_chars": [" ", "-", "(", ")", "+86"],
+      "digits_only": true,
+      "strip_leading_zeros": false
+    },
+    "updated_at": {
+      "kind": "datetime",
+      "output_format": "%Y-%m-%d %H:%M:%S"
+    }
+  },
+  "sources": [
+    {
+      "name": "api",
+      "priority": 1,
+      "type": "json_dir",
+      "path": "src_api",
+      "encoding": "utf-8",
+      "records_key": null,
+      "date_formats": ["%Y-%m-%d %H:%M:%S", "%Y-%m-%dT%H:%M:%S"],
+      "field_map": {
+        "customer_code": "customer_id",
+        "cust_no": "customer_id",
+        "name": "name",
+        "level": "level",
+        "credit_limit": "credit_limit",
+        "phone": "phone",
+        "updated_at": "updated_at"
+      }
+    },
+    {
+      "name": "csv",
+      "priority": 2,
+      "type": "csv",
+      "path": "src_export.csv",
+      "encoding": "utf-8-sig",
+      "date_formats": ["%Y-%m-%d %H:%M:%S", "%Y-%m-%d"],
+      "field_map": {
+        "cust_id": "customer_id",
+        "name": "name",
+        "level": "level",
+        "credit_limit": "credit_limit",
+        "phone": "phone",
+        "last_updated": "updated_at"
+      }
+    },
+    {
+      "name": "excel",
+      "priority": 3,
+      "type": "excel",
+      "path": "src_manual.xlsx",
+      "sheet": "客户",
+      "header_row": 1,
+      "date_formats": ["%Y-%m-%d", "%Y-%m-%d %H:%M:%S"],
+      "field_map": {
+        "会员号": "customer_id",
+        "姓名": "name",
+        "等级": "level",
+        "信用额度": "credit_limit",
+        "联系方式": "phone",
+        "更新日期": "updated_at"
+      }
+    }
+  ],
+  "output": {
+    "master": "master.csv",
+    "quarantine": "quarantine.csv",
+    "report": "run_report.json"
+  }
+}

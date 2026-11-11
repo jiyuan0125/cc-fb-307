@@ -1,0 +1,460 @@
+{
+  "generated_at": "2026-11-11T15:39:34+00:00",
+  "config": "/home/baru/Work/Private/cc-codex-feedback/repos/307/mapping.json",
+  "counts": {
+    "source_rows_total": 899,
+    "source_rows_rejected": 18,
+    "customers_distinct": 289,
+    "master_rows": 289,
+    "quarantine_rows": 18,
+    "quarantine_keyless_rows": 4
+  },
+  "sources": {
+    "api": {
+      "files": 14,
+      "rows_read": 671,
+      "rows_used": 671,
+      "rows_rejected": 0,
+      "rows_without_key": 0,
+      "customers": 273,
+      "customers_used": 273,
+      "master_rows_covered": 273,
+      "winning_values": 1035,
+      "invalid_values": {},
+      "alias_conflicts": 0,
+      "unmapped_columns": []
+    },
+    "csv": {
+      "files": 1,
+      "rows_read": 142,
+      "rows_used": 130,
+      "rows_rejected": 12,
+      "rows_without_key": 4,
+      "customers": 127,
+      "customers_used": 127,
+      "master_rows_covered": 45,
+      "winning_values": 77,
+      "invalid_values": {},
+      "alias_conflicts": 0,
+      "unmapped_columns": []
+    },
+    "excel": {
+      "files": 1,
+      "rows_read": 86,
+      "rows_used": 80,
+      "rows_rejected": 6,
+      "rows_without_key": 0,
+      "customers": 85,
+      "customers_used": 80,
+      "master_rows_covered": 22,
+      "winning_values": 34,
+      "invalid_values": {},
+      "alias_conflicts": 0,
+      "unmapped_columns": []
+    }
+  },
+  "quarantine": {
+    "total": 18,
+    "reason_distribution": {
+      "missing_customer_id": 4,
+      "missing_level": 8,
+      "missing_name": 6
+    },
+    "reason_combinations": {
+      "missing_customer_id": 4,
+      "missing_level": 8,
+      "missing_name": 6
+    },
+    "by_source": {
+      "csv": 12,
+      "excel": 6
+    }
+  },
+  "conflicts": {
+    "total_field_conflicts": 105,
+    "customers_with_conflicts": 100,
+    "by_field": {
+      "credit_limit": 1,
+      "level": 9,
+      "phone": 95
+    },
+    "by_source_pair": {
+      "api|csv": 55,
+      "api|csv|excel": 22,
+      "api|excel": 28
+    },
+    "examples": [
+      {
+        "customer_id": "46",
+        "conflicts": [
+          {
+            "field": "phone",
+            "sources": [
+              "api",
+              "csv",
+              "excel"
+            ],
+            "values": [
+              "13917133572",
+              "13988750515"
+            ],
+            "pair": "api|csv|excel"
+          }
+        ]
+      },
+      {
+        "customer_id": "294",
+        "conflicts": [
+          {
+            "field": "phone",
+            "sources": [
+              "api",
+              "csv"
+            ],
+            "values": [
+              "13918644056",
+              "13940274895"
+            ],
+            "pair": "api|csv"
+          }
+        ]
+      },
+      {
+        "customer_id": "98",
+        "conflicts": [
+          {
+            "field": "phone",
+            "sources": [
+              "api",
+              "csv"
+            ],
+            "values": [
+              "13962290306",
+              "13987191256"
+            ],
+            "pair": "api|csv"
+          }
+        ]
+      },
+      {
+        "customer_id": "148",
+        "conflicts": [
+          {
+            "field": "phone",
+            "sources": [
+              "api",
+              "csv"
+            ],
+            "values": [
+              "13926109274",
+              "13939737208"
+            ],
+            "pair": "api|csv"
+          }
+        ]
+      },
+      {
+        "customer_id": "14",
+        "conflicts": [
+          {
+            "field": "level",
+            "sources": [
+              "api",
+              "csv",
+              "excel"
+            ],
+            "values": [
+              "普通",
+              "银卡"
+            ],
+            "pair": "api|csv|excel"
+          },
+          {
+            "field": "phone",
+            "sources": [
+              "api",
+              "csv"
+            ],
+            "values": [
+              "13953886208",
+              "13971158222"
+            ],
+            "pair": "api|csv"
+          }
+        ]
+      },
+      {
+        "customer_id": "99",
+        "conflicts": [
+          {
+            "field": "phone",
+            "sources": [
+              "api",
+              "csv",
+              "excel"
+            ],
+            "values": [
+              "13920745753",
+              "13984126100"
+            ],
+            "pair": "api|csv|excel"
+          }
+        ]
+      },
+      {
+        "customer_id": "197",
+        "conflicts": [
+          {
+            "field": "phone",
+            "sources": [
+              "api",
+              "csv"
+            ],
+            "values": [
+              "13946188446",
+              "13956107339"
+            ],
+            "pair": "api|csv"
+          }
+        ]
+      },
+      {
+        "customer_id": "129",
+        "conflicts": [
+          {
+            "field": "phone",
+            "sources": [
+              "api",
+              "csv",
+              "excel"
+            ],
+            "values": [
+              "13934754700",
+              "13959851293"
+            ],
+            "pair": "api|csv|excel"
+          }
+        ]
+      },
+      {
+        "customer_id": "31",
+        "conflicts": [
+          {
+            "field": "phone",
+            "sources": [
+              "api",
+              "csv",
+              "excel"
+            ],
+            "values": [
+              "13937870408",
+              "13967224045"
+            ],
+            "pair": "api|csv|excel"
+          }
+        ]
+      },
+      {
+        "customer_id": "65",
+        "conflicts": [
+          {
+            "field": "phone",
+            "sources": [
+              "api",
+              "csv"
+            ],
+            "values": [
+              "13974558225",
+              "13987780149"
+            ],
+            "pair": "api|csv"
+          }
+        ]
+      },
+      {
+        "customer_id": "167",
+        "conflicts": [
+          {
+            "field": "phone",
+            "sources": [
+              "api",
+              "excel"
+            ],
+            "values": [
+              "13935695353",
+              "13985814313"
+            ],
+            "pair": "api|excel"
+          }
+        ]
+      },
+      {
+        "customer_id": "143",
+        "conflicts": [
+          {
+            "field": "phone",
+            "sources": [
+              "api",
+              "csv"
+            ],
+            "values": [
+              "13942073925",
+              "13971976468"
+            ],
+            "pair": "api|csv"
+          }
+        ]
+      },
+      {
+        "customer_id": "15",
+        "conflicts": [
+          {
+            "field": "credit_limit",
+            "sources": [
+              "api",
+              "csv"
+            ],
+            "values": [
+              "17494.39",
+              "9888.00"
+            ],
+            "pair": "api|csv"
+          }
+        ]
+      },
+      {
+        "customer_id": "256",
+        "conflicts": [
+          {
+            "field": "phone",
+            "sources": [
+              "api",
+              "excel"
+            ],
+            "values": [
+              "13974460200",
+              "13983145028"
+            ],
+            "pair": "api|excel"
+          }
+        ]
+      },
+      {
+        "customer_id": "159",
+        "conflicts": [
+          {
+            "field": "phone",
+            "sources": [
+              "api",
+              "excel"
+            ],
+            "values": [
+              "13923927800",
+              "13997932487"
+            ],
+            "pair": "api|excel"
+          }
+        ]
+      },
+      {
+        "customer_id": "137",
+        "conflicts": [
+          {
+            "field": "level",
+            "sources": [
+              "api",
+              "csv",
+              "excel"
+            ],
+            "values": [
+              "普通",
+              "银卡"
+            ],
+            "pair": "api|csv|excel"
+          },
+          {
+            "field": "phone",
+            "sources": [
+              "api",
+              "csv",
+              "excel"
+            ],
+            "values": [
+              "13942221677",
+              "13992420089"
+            ],
+            "pair": "api|csv|excel"
+          }
+        ]
+      },
+      {
+        "customer_id": "202",
+        "conflicts": [
+          {
+            "field": "phone",
+            "sources": [
+              "api",
+              "csv"
+            ],
+            "values": [
+              "13918984308",
+              "13978944375"
+            ],
+            "pair": "api|csv"
+          }
+        ]
+      },
+      {
+        "customer_id": "44",
+        "conflicts": [
+          {
+            "field": "phone",
+            "sources": [
+              "api",
+              "excel"
+            ],
+            "values": [
+              "13935929603",
+              "13970079091"
+            ],
+            "pair": "api|excel"
+          }
+        ]
+      },
+      {
+        "customer_id": "250",
+        "conflicts": [
+          {
+            "field": "phone",
+            "sources": [
+              "api",
+              "excel"
+            ],
+            "values": [
+              "13920829006",
+              "13996748582"
+            ],
+            "pair": "api|excel"
+          }
+        ]
+      },
+      {
+        "customer_id": "160",
+        "conflicts": [
+          {
+            "field": "phone",
+            "sources": [
+              "api",
+              "csv"
+            ],
+            "values": [
+              "13920264662",
+              "13932987213"
+            ],
+            "pair": "api|csv"
+          }
+        ]
+      }
+    ]
+  }
+}

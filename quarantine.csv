@@ -1,0 +1,19 @@
+customer_id,name,level,credit_limit,phone,updated_at,reason_codes,reason_detail,sources,record_locators,raw_key
+,王芳1,银卡,128553.49,13917133572,2026-10-13 21:00:00,missing_customer_id,必填字段缺失: 客户号,csv,csv:src_export.csv#122,
+,赵磊8,普通,75302.19,,2026-10-13 21:00:00,missing_customer_id,必填字段缺失: 客户号,csv,csv:src_export.csv#123,
+,张伟3,金卡,53677.98,13946204351,2026-10-13 21:00:00,missing_customer_id,必填字段缺失: 客户号,csv,csv:src_export.csv#124,
+,孙丽7,银卡,189494.52,13990290730,2026-10-13 21:00:00,missing_customer_id,必填字段缺失: 客户号,csv,csv:src_export.csv#125,
+65,张伟2,,177818.89,13987780149,2026-10-13 21:00:00,missing_level,必填字段缺失: 等级,csv,csv:src_export.csv#131,65
+77,赵磊5,,79736.20,13927954030,2026-10-13 21:00:00,missing_level,必填字段缺失: 等级,csv,csv:src_export.csv#132,77
+85,徐勇4,,1000.00,,2026-10-14 00:00:00,missing_level,必填字段缺失: 等级,excel,excel:src_manual.xlsx#83,085
+88,杨帆7,,1000.00,,2026-10-14 00:00:00,missing_level,必填字段缺失: 等级,excel,excel:src_manual.xlsx#84,088
+126,何平0,,79912.66,13995253547,2026-10-13 21:00:00,missing_level,必填字段缺失: 等级,csv,csv:src_export.csv#133,126
+231,郭燕6,,1000.00,,2026-10-14 00:00:00,missing_level,必填字段缺失: 等级,excel,excel:src_manual.xlsx#82,0231
+278,郭燕8,,1000.00,,2026-10-14 00:00:00,missing_level,必填字段缺失: 等级,excel,excel:src_manual.xlsx#85,0278
+283,赵磊4,,178609.68,,2026-10-13 21:00:00,missing_level,必填字段缺失: 等级,csv,csv:src_export.csv#130,283
+10,,金卡,196686.45,,2026-10-13 21:00:00,missing_name,必填字段缺失: 姓名,csv,csv:src_export.csv#129,10
+16,,白金,26986.59,13966644503,2026-10-13 21:00:00,missing_name,必填字段缺失: 姓名,csv,csv:src_export.csv#128,16
+93,,金卡,1000.00,,2026-10-14 00:00:00,missing_name,必填字段缺失: 姓名,excel,excel:src_manual.xlsx#87,093
+125,,银卡,155101.56,13987159245,2026-10-13 21:00:00,missing_name,必填字段缺失: 姓名,csv,csv:src_export.csv#127,125
+142,,银卡,50948.33,,2026-10-13 21:00:00,missing_name,必填字段缺失: 姓名,csv,csv:src_export.csv#126,142
+150,,白金,1000.00,,2026-10-14 00:00:00,missing_name,必填字段缺失: 姓名,excel,excel:src_manual.xlsx#86,0150
