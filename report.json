@@ -1,0 +1,47 @@
+{
+  "raw_row_count": {
+    "api": 671,
+    "csv": 142,
+    "excel": 86
+  },
+  "dropped_unidentified_rows": {
+    "api": 0,
+    "csv": 4,
+    "excel": 0
+  },
+  "duplicates_within_source": {
+    "api": 398,
+    "csv": 11,
+    "excel": 1
+  },
+  "master_customer_count": 288,
+  "quarantine_count": 1,
+  "quarantine_reason_distribution": {
+    "level": 1
+  },
+  "customers_present_per_source": {
+    "api": 273,
+    "excel": 85,
+    "csv": 127
+  },
+  "source_combo_distribution": {
+    "api": 114,
+    "api+excel": 43,
+    "api+csv": 80,
+    "api+csv+excel": 36,
+    "csv+excel": 1,
+    "csv": 10,
+    "excel": 5
+  },
+  "source_contributing_rows": {
+    "api": 273,
+    "csv": 46,
+    "excel": 26
+  },
+  "cross_source_field_conflicts": {
+    "phone": 74,
+    "level": 8,
+    "credit_limit": 6
+  },
+  "cross_source_conflict_total": 88
+}

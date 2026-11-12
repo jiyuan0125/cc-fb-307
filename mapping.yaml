@@ -1,0 +1,95 @@
+# 客户主数据三源合并映射配置
+# merge.py 只读本配置工作，字段映射、类型归一、优先级均不在代码中硬编码。
+#
+# 结构说明：
+#   target_schema    目标字段及其类型/必填属性（master.csv 的列顺序）
+#   sources.<源>.field_map   来源字段 -> 目标字段
+#                            同一目标字段可声明多个来源字段（接口升级改名的兼容手段）
+#   sources.<源>.id_fields   客户号候选字段（按声明顺序取第一个非空值）
+#   sources.<源>.date_field  该来源的记录更新时间字段（归一后的目标字段名）
+#   merge.priority           非联系方式字段的取数优先级（高 -> 低）
+#   merge.contact_fields     联系方式字段：不按优先级覆盖，任一来源非空即补全，
+#                            多个来源都有非空值时取更新时间最新的那条
+
+target_schema:
+  - name: customer_id
+    type: int
+    required: true
+  - name: name
+    type: str
+    required: true
+  - name: level
+    type: str
+    required: true
+  - name: credit_limit
+    type: float
+    required: false
+  - name: phone
+    type: str
+    required: false
+  - name: updated_at
+    type: date
+    required: false
+
+# 客户主键目标字段：该字段缺失的行无法参与合并，直接剔除并计入报告
+key_field: customer_id
+
+# 类型归一规则（供 merge.py 的 normalize_value 按 type 分派）
+normalization:
+  int:
+    description: 客户号统一为整数；兼容 API 的 C 前缀、CSV/Excel 的前导零
+    strip_prefix: "C"
+  float:
+    description: 去掉千分位逗号后转浮点数，保留两位小数
+    thousands_sep: ","
+    decimals: 2
+  str:
+    description: 去首尾空白，空串视为缺失
+  date:
+    description: 统一输出 YYYY-MM-DD，兼容 "YYYY-MM-DD HH:MM:SS" 与 "YYYY-MM-DD"
+    output_format: "%Y-%m-%d"
+
+sources:
+  api:
+    type: json_dir
+    # 目录下每日一个 JSON 文件，文件名中带日期
+    path_glob: "src_api/cust_*.json"
+    date_field: updated_at
+    field_map:
+      # 接口升级：旧字段 cust_no 与新字段 customer_code 归一到同一目标字段
+      cust_no: customer_id
+      customer_code: customer_id
+      name: name
+      level: level
+      credit_limit: credit_limit
+      phone: phone
+      updated_at: updated_at
+
+  csv:
+    type: csv
+    path: "src_export.csv"
+    date_field: updated_at
+    field_map:
+      cust_id: customer_id
+      name: name
+      level: level
+      credit_limit: credit_limit
+      phone: phone
+      last_updated: updated_at
+
+  excel:
+    type: excel
+    path: "src_manual.xlsx"
+    sheet: "客户"
+    date_field: updated_at
+    field_map:
+      会员号: customer_id
+      姓名: name
+      等级: level
+      信用额度: credit_limit
+      联系方式: phone
+      更新日期: updated_at
+
+merge:
+  priority: [api, csv, excel]
+  contact_fields: [phone]
